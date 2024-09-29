@@ -55,7 +55,7 @@
 .cover {
   padding: 165px 50px 50px;
   position: relative;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   height: 757px;
@@ -182,7 +182,7 @@
   line-height: 26.4px;
   text-transform: uppercase;
   color: #ffffff;
-  text-decoration: underline; /*Подумать над реализацией!!! Странно выглядит*/
+  text-decoration: underline;
 }
 
 .card__text {
@@ -194,19 +194,19 @@
 }
 
 .card_type_film {
-  background-image: url("/images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card_type_book {
-  background-image: url("/images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card_type_picture {
-  background-image: url("/images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -276,7 +276,7 @@
 }
 
 .footer {
-  padding: 0 50px;
+  padding: 0 50px 86px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
